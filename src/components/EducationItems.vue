@@ -1,11 +1,11 @@
 <template>
-    <div class="edu-wrapper w-100">
-        <div v-for="item in resume.education" :key="item" class="item item-1 p-0 m-0">
+    <div class="edu-wrapper w-100 ">
+        <div v-for="item in resume.education" :key="item" class="item  item-1 p-0 m-0">
             <h4 class="item-title d-flex gap-md-2">
                 <i :class="item.iconClassName"></i>
                 {{ item.name }}
             </h4>
-            <div class="item-paragraph ps-5 mt-1">
+            <div class="item-paragraph ps-5 mt-1 mt-md-0">
                 <li v-for="title in item.modules" :key="title" class="title">
                     {{ title }}
                 </li>
@@ -39,9 +39,12 @@ export default {
 .item-title {
     scale: .8;
     position:relative;
+    margin: 1rem;
+    transform: translateX( 2rem);
 }
 .icon {
     scale: 1.7;
+    transform: translateX(-.7rem);
 }
 
 .brush, .code-icon {
@@ -55,13 +58,13 @@ export default {
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    left: -1rem;
+    left: -2rem;
     top: -.5rem;
 }
 
 .item-paragraph {
     text-align: left;
-    font-size: 14px;
+    font-size: 15px;
     width: 90%;
 }
 
@@ -102,7 +105,6 @@ export default {
     }
 
     li {
-       
         width: 166%;
         translate: -2.3rem -.5rem;
         font-size: 14px !important;
