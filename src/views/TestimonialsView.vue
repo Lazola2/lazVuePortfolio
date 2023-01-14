@@ -28,7 +28,7 @@
                             <a :href="testimonial.imageLink" target="_blank">
                                 <img class="image rounded-5" :src="testimonial.imageLink">
                             </a>
-                            <div class="h-100 w-50 d-flex flex-column">
+                            <div class="h-100 d-flex flex-column">
                                 <p class="text-start person-text ps-3 pt-2">
                                     <span class="bold">{{ testimonial.name }} </span> 
                                     <br>
@@ -200,6 +200,11 @@ export default {
     }
 
     @media screen and (max-width: 500px){
+
+        .testimonials-container {
+            width: 100%;
+        }
+
         .testimonials-subtitle {
             font-size: 20px;
         }
@@ -222,7 +227,7 @@ export default {
         .testimonial-paragraph {
             padding: 0 !important;
             font-size: 15px;
-            text-align: justify !important; 
+          
         }
 
         h5 {

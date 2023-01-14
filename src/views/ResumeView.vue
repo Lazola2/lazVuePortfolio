@@ -181,4 +181,20 @@ export default {
 
     }
 
+    @media screen and (max-width: 500px) {
+        .resume-container {
+            height: 80%;
+            width: 95%;
+            background: rgba(255, 255, 255, 0.755);
+            justify-content: center;
+        }
+    
+        .sites {
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+    }
+
 </style>
