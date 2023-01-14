@@ -106,7 +106,7 @@ const resume = {
     skills: [
         {
             id: 1,
-            title: 'Soft skills (in progress)',
+            title: 'Soft skills',
             rate: 78,
         },
         {
