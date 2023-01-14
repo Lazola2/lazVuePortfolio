@@ -133,7 +133,6 @@ export default {
     }
 
     @media screen and (max-width: 800px) {
-
         .projects-container {
             height: 80%;
             width: 75%;
@@ -148,6 +147,24 @@ export default {
             transition: 1s;
             box-shadow: 0 0 15px 0 rgb(0, 0, 0);
         }
+
+    }
+
+    @media screen and (max-width: 500px) {
+        .projects-container {
+            height: 80%;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.755);
+        }
+    
+        .projects-wrapper {
+            height: 320px;
+            width: 270px;
+            overflow: hidden;
+            transition: 1s;
+            box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+            transform: translateY(-2rem);
+        }    
     }
 
 </style>

@@ -133,6 +133,10 @@ export default {
         margin-bottom: 3rem;
         width: 50%;
       }
+
+      .description {
+        width: 80%;
+      }
     
       .btn-more {
         width: 120px;
@@ -141,7 +145,7 @@ export default {
         color: var(--theme-color);
         font-size: 15px;
         position: relative;
-        padding: .4rem !important;
+        padding: .6rem !important;
         border-radius: 5px;
         box-sizing: border-box;
       }

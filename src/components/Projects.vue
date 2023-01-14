@@ -3,7 +3,7 @@
         <div class="content position-absolute h-100">
             <div class="bootstrap-icon">
                 <a :href="project.githubLink">
-                    <i class="bi bi-github text-white github-icon ms-5 mt-3"></i>
+                    <i class="bi bi-github text-white github-icon ms-3 ms-md-5 mt-1 mt-md-3"></i>
                 </a>
             </div>
             <div class="number">
@@ -136,6 +136,38 @@ export default {
             width: 150px;
             border-radius: 5px;
             border: none;
+        }
+
+    }
+
+    @media screen and (max-width: 500px) {
+        .project {
+            height: 265px;
+            width: 100%;
+            z-index: 1;
+        }
+        .content {
+            grid-template-rows: 1.2fr .8fr repeat(3, .7fr) !important;
+        }
+
+        .number {
+            font-size: 40px !important;
+        }
+
+        .view-button {
+            margin-bottom: 1rem;
+            width: 150px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .description {
+            display: none;
+        }
+
+        .project-title {
+            font-weight: bolder;
+            scale: 1.2;
         }
 
     }
