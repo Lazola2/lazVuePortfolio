@@ -1,6 +1,6 @@
 <template>
     <div class="resume w-100 h-100 d-flex align-items-center justify-content-center">
-        <div class="resume-container mt-5 p-3">
+        <div class="resume-container mt-5 p-0 p-md-3">
             <div class="title-holder d-flex align-items-end justify-content-center">
                 <!-- title -->
                 <h4 class="title">Resume</h4>
@@ -192,7 +192,6 @@ export default {
         .sites {
             display: flex;
             flex-direction: column;
-            
         }
 
     }

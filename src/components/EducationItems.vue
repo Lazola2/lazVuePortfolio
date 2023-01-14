@@ -1,7 +1,7 @@
 <template>
     <div class="edu-wrapper w-100">
         <div v-for="item in resume.education" :key="item" class="item item-1 p-0 m-0">
-            <h4 class="item-title d-flex gap-4">
+            <h4 class="item-title d-flex gap-md-2">
                 <i :class="item.iconClassName"></i>
                 {{ item.name }}
             </h4>
@@ -82,6 +82,30 @@ export default {
 
     .title {
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .item-title {
+        width: 100%;
+        transform: translateX(-1rem);
+        text-align: left;
+    }
+
+    .item-title::before {
+        display: none;
+    }
+
+    i {
+        display: none;
+    }
+
+    li {
+       
+        width: 166%;
+        translate: -2.3rem -.5rem;
+        font-size: 14px !important;
     }
 }
 

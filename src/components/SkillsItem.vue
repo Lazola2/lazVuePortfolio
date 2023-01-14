@@ -51,4 +51,12 @@ export default {
             flex-direction: column;
         }
     }
+
+    @media screen and (max-width: 500px) {
+        .progress-wrapper {
+            margin: 0;
+            width: 120% !important;
+            transform: translateX(-1rem);
+        }
+    }
 </style>
