@@ -40,7 +40,7 @@ const projects = [
       description: 'My portfolio built in VueJS and Bootstrap',
       githubLink: 'https://github.com/Lazola2/VuePortfolio.git',
       // not hosted yet: must host in firebase
-      hostLink: '',
+      hostLink: 'laz-vueportfolio.netlify.app',
       imageLink: 'https://i.postimg.cc/ZRZw0BVP/Portfolio.png'
     },
     {
