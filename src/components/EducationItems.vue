@@ -89,7 +89,7 @@ export default {
     
     .item-title {
         width: 100%;
-        transform: translateX(-1rem);
+        transform: translateX(-3rem);
         text-align: left;
     }
 
@@ -97,13 +97,21 @@ export default {
         display: none;
     }
 
+    .site-title {
+        transform: translateX(-5rem);
+    }
+
+    .skills-wrapper {
+        width: 100%;
+    }
+
     i {
         display: none;
     }
 
     li {
-        background: orange;
-        width: 130% 
+        width: 130%;
+        transform: translateX(-3rem);
     }
 }
 
