@@ -12,6 +12,14 @@ createApp(App).use(store).use(router).use(bootstrap).mount('#app')
 const projects = [
     {
       id: 1,
+      title: 'E-Commerce website',
+      description: 'Built a fullstack e-commerce website using the MEVN (MySQL, Epxress.js, Vue.js, Node.js) stack.',
+      githubLink: 'https://github.com/Lazola2/Capstone.git',
+      hostLink: 'https://course-it.netlify.app/',
+      imageLink: 'https://i.postimg.cc/fLrv3tw9/Screenshot-2023-03-27-121608.png'
+    },
+    {
+      id: 2,
       title: 'Point of Sale System ',
       description: 'Built and Deployed a point of Sale System made with JavaScript and Bootstrap',
       githubLink: 'https://github.com/Lazola2/POS-System',
@@ -19,7 +27,7 @@ const projects = [
       imageLink: 'https://i.postimg.cc/6QWW0Tmz/POS.png'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Online Calculator',
       description: 'Built and Deployed a calculator made with JavaScript and Bootstrap',
       githubLink: 'https://github.com/Lazola2/JSCalculator.git',
@@ -27,7 +35,7 @@ const projects = [
       imageLink: 'https://i.postimg.cc/cJtSTYcR/CALCULATOR.png'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Clothing Store',
       description: 'Built and Deployed a clothing store in HTML and CSS',
       githubLink: 'https://github.com/Lazola2/E-Commerce-Site.git',
@@ -35,16 +43,15 @@ const projects = [
       imageLink: 'https://i.postimg.cc/25P7BqG9/Clothing.png'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Portfolio',
       description: 'My portfolio built in VueJS and Bootstrap',
       githubLink: 'https://github.com/Lazola2/VuePortfolio.git',
-      // not hosted yet: must host in firebase
       hostLink: 'laz-vueportfolio.netlify.app',
       imageLink: 'https://i.postimg.cc/ZRZw0BVP/Portfolio.png'
     },
     {
-        id: 5,
+        id: 6,
         title: 'LC Dashboard',
         description: 'A mock dashboard for Life Choices (not the one on the picture )',
         githubLink: 'https://github.com/Lazola2/LCDashboard',
@@ -52,7 +59,7 @@ const projects = [
         imageLink: 'https://i.postimg.cc/m2VZz2cs/lcdashboard.png'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Todo App',
         description: 'A todo app built with HTMl, CSS, JS and deployed on netlify',
         githubLink: 'https://github.com/Lazola2/TodoApp',
